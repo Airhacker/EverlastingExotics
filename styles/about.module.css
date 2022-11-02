@@ -1,0 +1,37 @@
+.About {
+  display: flex;
+  background: linear-gradient(
+      90.25deg,
+      rgba(0, 0, 0, 0.25) 16.57%,
+      rgba(138, 138, 138, 0.25) 51.11%,
+      rgba(0, 0, 0, 0.25) 83.57%
+    ),
+    #1b1b1b;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 428px 161px;
+}
+
+.aboutTop {
+  display: flex;
+  font-size: 6rem;
+  color: white;
+  font-family: "Inter", sans-serif;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px 1px 0px 1px;
+  border-radius: 1.5rem;
+}
+
+.aboutBottom {
+  display: flex;
+  font-size: 2rem;
+  color: white;
+  font-family: "Inter", sans-serif;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 1px;
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
