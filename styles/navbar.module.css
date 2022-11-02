@@ -1,209 +1,55 @@
-.logo {
-  padding: 8px 0px;
-  opacity: 100%;
-  align-items: center;
-}
+/* Main Styling */
 
-.overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  backdrop-filter: blur(8px);
-  z-index: 10;
-}
-
-.container {
-  align-items: center;
+.navContainer {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin: 0 auto;
-  max-width: 1280px;
-  padding: 0.25rem 5vw;
-}
-
-.root {
-  display: flex;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-}
-
-.links {
-  display: flex;
-  gap: 8px;
-  list-style: none;
-  font-family: Montserrat;
-  padding: 0px 10px;
-  font-size: 16px;
-  align-items: center;
-  flex-direction: column;
-  z-index: 11;
-
-  align-items: flex-start;
-  position: fixed;
-  background-color: #101010;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 1rem;
-}
-
-.links li {
-  width: 100%;
-}
-
-.links a {
-  text-decoration: none;
-  padding: 8px 0;
-  color: black;
-  width: 100%;
-  display: inline-flex;
-}
-
-.links a:hover {
-  text-decoration: underline;
-}
-
-.dot {
-  display: none;
-  height: 3px;
-  width: 3px;
-  background-color: black;
-  border-radius: 50%;
-}
-
-.links .order {
-  background-color: rgb(0, 64, 41);
-  font-size: 16px;
-  color: white;
-  border-radius: 4px;
-  padding: 8px 16px;
-  border: none;
-}
-
-.links {
-  justify-content: flex-start;
-  align-items: flex-start;
-  height: 100vh;
-  width: 80%;
-  right: 0;
-}
-
-.order {
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  width: 90%;
   align-items: center;
   justify-content: center;
-  padding: 8px 16px;
-  text-align: center;
-  background: #004029;
-  font-size: 16px;
-  border-radius: 0.8em;
-  color: white;
-  cursor: pointer;
-  overflow: hidden;
-  z-index: 1;
+  margin: 0 auto;
+  padding: 1rem 0rem;
 }
 
-.order:hover {
-  color: #ffffff;
+/* Logo Styling */
+.logoContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.orderCon {
-  display: grid;
-  place-items: center;
-  position: relative;
-  border-radius: 8px;
-  background: linear-gradient(50deg, #004029, #004029);
-  overflow: hidden;
+/* Links Styling */
+.navLinksContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
 }
 
-.orderCon::before {
-  content: " ";
-  position: absolute;
-  width: 450px;
-  height: 35px;
-  top: 0;
-  right: 35px;
-  transition: 1.9s;
-  background: linear-gradient(50deg, #ffffff, #ffffff);
-  transform: rotate(-45deg) translate(0, -100px);
+.navLinksContainer ul {
+  display: flex;
+  gap: 100px;
+  list-style: none;
+  font-size: 2rem;
+  font-weight: 300;
 }
 
-.orderCon:hover::before {
-  animation: cardEffect 1.9s;
+.navLinksContainer ul li {
 }
 
-.orderCon a {
-  white-space: nowrap;
+/* Button Styling */
+.buttonContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.menuButton,
-.closeButton {
-  border: none;
-  background: none;
-  display: inline-flex;
-}
-
-.menuButton svg,
-.closeButton svg {
-  border: none;
-  background: none;
-  height: 2.5rem;
-  width: 2.5rem;
-}
-
-.menuButton.notHome svg {
-  color: #000 !important;
-}
-
-button.closeButton > svg {
-  color: #fff !important;
-}
-
-@keyframes cardEffect {
-  100% {
-    transform: rotate(-45deg) translate(0, 450px);
-  }
-}
-
-@media screen and (min-width: 50rem) {
-  .dot {
-    display: inline-block;
-  }
-  .links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: relative;
-    width: auto;
-    background-color: transparent;
-    bottom: inherit;
-    top: inherit;
-    height: auto;
-  }
-  .links li {
-    width: auto;
-  }
-  .links a {
-    padding: 8px 16px;
-  }
-  .links.notHome > li:not(:last-of-type) > a {
-    color: black !important;
-  }
-  .links.notHome > span {
-    background: black !important;
-  }
-  .menu {
-    align-items: center;
-    display: inline-flex;
-  }
-  .menuButton {
-    display: none;
-  }
-  .closeButton {
-    display: none;
-  }
+.bookNowButton {
+  padding: 1.25rem 5rem;
+  background-color: white;
+  border-radius: 25px;
+  color: black;
+  font-size: 2rem;
+  box-shadow: 0px 10px 225px rgba(255, 255, 255, 0.35);
 }
