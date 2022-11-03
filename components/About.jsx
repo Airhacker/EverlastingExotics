@@ -1,7 +1,4 @@
-import styles from "../styles/about.module.css";
-import Image from "next/image";
-import Mclaren from "../public/Mclaren.png";
-import Link from "next/link";
+import styles from "../styles/About.module.css";
 
 export default function About() {
   return (

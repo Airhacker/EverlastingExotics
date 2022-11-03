@@ -7,6 +7,7 @@ const Navbar = () => {
     <section className={styles.navContainer}>
       <div className={styles.logoContainer}>
         <Image
+          alt="Everlasting Exotics Logo"
           className={styles.logo}
           src="/Weblogo.svg"
           height={75}
