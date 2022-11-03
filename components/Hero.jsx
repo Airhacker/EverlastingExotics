@@ -1,4 +1,4 @@
-import styles from "../styles/hero.module.css";
+import styles from "../styles/Hero.module.css";
 import Image from "next/image";
 import Mclaren from "../public/Mclaren.png";
 import Link from "next/link";
@@ -6,12 +6,12 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <section className={styles.root}>
-      <div className={styles.Herotext}>Everlasting Exotics</div>
-      <div className={styles.HeroCar}>
-        <Image src={Mclaren} alt="Mclaren" width={1300} height={866} />
+      <div className={styles.heroText}>
+        <h1>Everlasting Exotics</h1>
+        <Image alt="Photo of a McLaren 720s" src={Mclaren}></Image>
       </div>
       <div className={styles.HeroButton}>
-        <a>Open Catalog</a>
+        <Link href="/">Open Catalog</Link>
       </div>
     </section>
   );
