@@ -1,0 +1,36 @@
+.container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/* Ttitle Styling */
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.title h1 {
+  font-size: 5.75rem;
+  font-weight: 200;
+}
+
+.title hr {
+  width: 300px;
+}
+
+/* Car Selection container styling */
+
+.carContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
