@@ -1,4 +1,5 @@
 import styles from "../styles/Selection.module.css";
+import AmgC63 from "./cars/amgC63";
 import Raptor from "./cars/Raptor";
 
 const Selection = () => {
@@ -11,6 +12,7 @@ const Selection = () => {
       </div>
       <div className={styles.carContainer}>
         <Raptor />
+        <AmgC63 />
       </div>
     </section>
   );
