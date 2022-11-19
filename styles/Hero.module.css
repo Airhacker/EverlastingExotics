@@ -1,4 +1,66 @@
-.root {
+/* ------------------- MOBILE MEDIA QUERIES -------------------*/
+.heroContainer {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.secondaryContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+/* image styling */
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobileImage {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  filter: blur(1.5px);
+}
+
+.desktopImage {
+  display: none;
+}
+
+/* heading styling */
+.heroText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 10.5vw;
+  z-index: 2;
+  text-align: center;
+}
+
+/* ------------------- TABLET MEDIA QUERIES -------------------*/
+
+@media (min-width: 768px) {
+}
+
+/*------------------- DESKTOP MEDIA QUERIES -------------------*/
+
+@media (min-width: 1440px) {
+}
+
+/*------------------- 4K MEDIA QUERIES -------------------*/
+@media (min-width: 2560px) {
+}
+
+/* .root {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,4 +102,4 @@
   padding: 1.5rem 6.25rem;
 
   box-shadow: 0px 10px 225px rgba(255, 255, 255, 0.35);
-}
+} */

@@ -1,53 +1,78 @@
+/* ------------------- MOBILE MEDIA QUERIES -------------------*/
 /* Main Styling */
 
 .navContainer {
   display: flex;
-  flex-direction: row;
-  width: 90%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 90%;
   margin: 0 auto;
-  height: 10vh;
-  padding-top: 2rem;
+  padding: 1rem 0rem;
 }
 
 /* Logo Styling */
 .logoContainer {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-/* Links Styling */
-.navLinksContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1;
 }
 
-.navLinksContainer ul {
-  display: flex;
-  gap: 100px;
-  list-style: none;
-  font-size: 2rem;
-  font-weight: 300;
+.logoContainer svg {
+  width: 50px;
+  height: 50px;
 }
 
-/* Button Styling */
+/* Hidden Nav Links from Desktop */
+.navLinksContainer {
+  display: none;
+}
+
 .buttonContainer {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  display: none;
 }
 
-.bookNowButton {
-  padding: 1.25rem 5rem;
-  background-color: white;
-  border-radius: 25px;
-  color: black;
-  font-size: 2rem;
-  box-shadow: 0px 10px 225px rgba(255, 255, 255, 0.35);
+/* ------------------- TABLET MEDIA QUERIES -------------------*/
+
+@media (min-width: 768px) {
+  /* Links Styling */
+  .navLinksContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .navLinksContainer ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  /* Button Styling */
+  .buttonContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .bookNowButton {
+    padding: 1.25rem 5rem;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    font-size: 2rem;
+    box-shadow: 0px 10px 225px rgba(255, 255, 255, 0.35);
+  }
+}
+
+/*------------------- DESKTOP MEDIA QUERIES -------------------*/
+
+@media (min-width: 1440px) {
+}
+
+/*------------------- 4K MEDIA QUERIES -------------------*/
+@media (min-width: 2560px) {
 }

@@ -61,6 +61,9 @@ const Navbar = () => {
           </defs>
         </svg>
       </div>
+      <div className={styles.mobileNav}>
+        <button>NAV</button>
+      </div>
       <div className={styles.navLinksContainer}>
         <ul>
           <li>
