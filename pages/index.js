@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Selection from "../components/Selection";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       </div>
       <div className={styles.heroContainer}>
         <Selection />
-        <About />
+        <Footer />
       </div>
     </div>
   );
