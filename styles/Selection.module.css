@@ -1,37 +1,54 @@
+/* ------------------- MOBILE MEDIA QUERIES -------------------*/
 .container {
-  width: 90%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
   margin: 0 auto;
+  padding: 3rem 0rem;
 }
 
-/* Ttitle Styling */
 .title {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 100px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .title h1 {
-  font-size: 5.75rem;
   font-weight: 200;
+  font-size: 2rem;
+  text-align: center;
+  flex: 3;
 }
 
 .title hr {
-  width: 300px;
+  background-color: white;
+  border-radius: 25px;
+  flex: 1;
 }
 
-/* Car Selection container styling */
-
 .carContainer {
+  width: 100%;
+  margin: 0 auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1.5rem;
+}
+
+/* ------------------- TABLET MEDIA QUERIES -------------------*/
+
+@media (min-width: 768px) {
+}
+
+/*------------------- DESKTOP MEDIA QUERIES -------------------*/
+
+@media (min-width: 1440px) {
+}
+
+/*------------------- 4K MEDIA QUERIES -------------------*/
+@media (min-width: 2560px) {
 }

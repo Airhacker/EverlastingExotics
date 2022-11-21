@@ -2,24 +2,38 @@ import styles from "../../styles/Cars.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import mercedesAmg from "../../public/amgC63.png";
-import { BiTimer } from "react-icons/bi";
 
 const AmgC63 = () => {
   return (
     <div className={styles.container}>
-      <h2>Mercedes AMG C63</h2>
       <Image alt="Mercedes Amg C63" src={mercedesAmg}></Image>
+      <h2>Mercedes AMG C63</h2>
       <hr />
       <div className={styles.carStats}>
         <div className={styles.carStatsLeft}>
           <div>
-            <BiTimer />
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 25 27"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.1074 4.71328V2.6943H15.1354C15.8111 2.6943 16.3591 2.20305 16.3591 1.59717C16.3591 0.991296 15.8112 0.500046 15.1354 0.500046H9.31045C8.63466 0.500046 8.08673 0.991296 8.08673 1.59717C8.08673 2.20305 8.63466 2.6943 9.31045 2.6943H10.3384V4.71328C4.49017 5.52823 0 10.0735 0 15.5415C0 21.584 5.48324 26.5 12.2229 26.5C18.9626 26.5 24.4458 21.5839 24.4458 15.5415C24.4458 10.0735 19.9556 5.52823 14.1074 4.71328ZM12.2229 24.3058C6.83266 24.3058 2.44744 20.3741 2.44744 15.5416C2.44744 10.709 6.83276 6.77737 12.2229 6.77737C17.613 6.77737 21.9984 10.709 21.9984 15.5416C21.9984 20.3741 17.6131 24.3058 12.2229 24.3058Z"
+                fill="black"
+              />
+              <path
+                d="M13.4465 15.0857V9.917C13.4465 9.31112 12.8985 8.81987 12.2227 8.81987C11.547 8.81987 10.999 9.31112 10.999 9.917V15.7186C10.999 15.8971 11.0783 16.0681 11.2193 16.194L14.6427 19.2503C15.1217 19.6779 15.8963 19.6763 16.3733 19.2471C16.8502 18.8177 16.8485 18.123 16.3697 17.6955L13.4465 15.0857Z"
+                fill="black"
+              />
+            </svg>
             <span>5.3 sec</span>
           </div>
           <div>
             <svg
-              width="26.5"
-              height="26.5"
+              width="16"
+              height="16"
               viewBox="0 0 28 27"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
