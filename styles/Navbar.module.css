@@ -34,6 +34,10 @@
 /* ------------------- TABLET MEDIA QUERIES -------------------*/
 
 @media (min-width: 768px) {
+  .mobileNav {
+    display: none;
+  }
+
   /* Links Styling */
   .navLinksContainer {
     display: flex;
