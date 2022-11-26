@@ -95,6 +95,10 @@ const Navbar = () => {
                 }}
                 className={styles.links}
               >
+                <RiCloseFill
+                  className={styles.closeButton}
+                  onClick={() => setOpen(!open)}
+                ></RiCloseFill>
                 <li>
                   <Link href="/">Home</Link>
                 </li>
