@@ -38,6 +38,7 @@
   height: 40px;
   cursor: pointer;
   z-index: 5;
+  color: white;
 }
 
 .overlay {
