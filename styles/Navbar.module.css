@@ -32,12 +32,10 @@
 }
 
 /* mobile nav styling */
-.mobileNav {
-}
 
 .mobileNav svg {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
   z-index: 5;
   color: white;
@@ -89,6 +87,12 @@
 
 .links li {
   width: 100%;
+}
+
+.closeButton {
+  position: absolute;
+  top: 2vh;
+  right: 5vw;
 }
 
 /* ------------------- TABLET MEDIA QUERIES -------------------*/
