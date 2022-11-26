@@ -3,6 +3,7 @@ import Image from "next/image";
 import Mclaren from "../public/Mclaren.png";
 import huracan from "../public/huracanTop.png";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
@@ -24,11 +25,19 @@ export default function Hero() {
           <h1>Everlasting Exotics</h1>
         </div>
       </div>
-      <div className={styles.buttonContainer}>
-        <Link className="callToActionButton" href="/">
-          Open Catalog
-        </Link>
-      </div>
+      <motion.a
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        href="/"
+        target={"_blank"}
+        rel="noreferrer"
+      >
+        <div className={styles.buttonContainer}>
+          <Link className="callToActionButton" href="/">
+            Open Catalog
+          </Link>
+        </div>
+      </motion.a>
     </section>
   );
 }
