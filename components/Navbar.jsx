@@ -86,9 +86,9 @@ const Navbar = () => {
           <AnimatePresence>
             {open && (
               <motion.ul
-                initial={{ x: "-100%" }}
-                animate={{ x: 0 }}
-                exit={{ x: "-100%" }}
+                initial={{ x: "100%" }}
+                animate={{ x: "0%" }}
+                exit={{ x: "150%" }}
                 transition={{
                   type: "spring",
                   bounce: 0.01,
@@ -104,7 +104,7 @@ const Navbar = () => {
                 <li>
                   <Link href="/">Showroom</Link>
                 </li>
-                <li className={styles.orderCon}>
+                <li>
                   <Link href="/">About Us</Link>
                 </li>
               </motion.ul>
