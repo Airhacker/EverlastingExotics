@@ -25,19 +25,13 @@ export default function Hero() {
           <h1>Everlasting Exotics</h1>
         </div>
       </div>
-      <motion.a
+      <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
-        href="/"
-        target={"_blank"}
-        rel="noreferrer"
+        className="callToActionButton"
       >
-        <div className={styles.buttonContainer}>
-          <Link className="callToActionButton" href="/">
-            Open Catalog
-          </Link>
-        </div>
-      </motion.a>
+        <Link href="/">Open Catalog</Link>
+      </motion.button>
     </section>
   );
 }

@@ -29,6 +29,7 @@ a {
 /* ------------------- MOBILE MEDIA QUERIES -------------------*/
 /* Call to Action Button Styling */
 .callToActionButton {
+  border: none;
   display: flex;
   align-items: center;
   justify-content: center;

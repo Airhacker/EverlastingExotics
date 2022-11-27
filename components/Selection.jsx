@@ -1,5 +1,5 @@
 import styles from "../styles/Selection.module.css";
-import AmgC63 from "./cars/amgC63";
+import AmgC63 from "./cars/AmgC63";
 import Raptor from "./cars/Raptor";
 
 const Selection = () => {
