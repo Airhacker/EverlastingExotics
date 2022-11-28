@@ -68,6 +68,30 @@
 /* ------------------- TABLET MEDIA QUERIES -------------------*/
 
 @media (min-width: 768px) {
+  .container {
+    padding: 2rem;
+  }
+
+  .container a {
+    width: 80%;
+  }
+
+  .container img {
+    width: 80%;
+    height: auto;
+  }
+
+  .container hr {
+    width: 80%;
+  }
+
+  .carStats {
+    width: 80%;
+  }
+
+  .carStatsLeft {
+    gap: 1.5rem;
+  }
 }
 
 /*------------------- DESKTOP MEDIA QUERIES -------------------*/

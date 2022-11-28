@@ -1,18 +1,18 @@
 import styles from "../../styles/Cars.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import carImageSide from "../../public/FordRaptor.png";
+import carImageSide from "../../public/huracanSide.png";
 
-const Raptor = () => {
+const LamborghiniHuracan = () => {
   return (
     <div className={styles.container}>
       <Image
-        alt="2020 Ford Raptor"
+        alt="Lamborghini Huracan"
         src={carImageSide}
         width={432}
         height={259}
       ></Image>
-      <h2>2020 Ford Raptor</h2>
+      <h2>Lamborghini Huracan</h2>
       <hr />
       <div className={styles.carStats}>
         <div className={styles.carStatsLeft}>
@@ -60,4 +60,5 @@ const Raptor = () => {
     </div>
   );
 };
-export default Raptor;
+
+export default LamborghiniHuracan;

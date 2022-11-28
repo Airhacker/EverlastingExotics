@@ -1,12 +1,12 @@
 import styles from "../../styles/Cars.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import mercedesAmg from "../../public/amgC63.png";
+import carImageSide from "../../public/amgC63.png";
 
 const AmgC63 = () => {
   return (
     <div className={styles.container}>
-      <Image alt="Mercedes Amg C63" src={mercedesAmg}></Image>
+      <Image alt="Mercedes Amg C63" src={carImageSide}></Image>
       <h2>Mercedes AMG C63</h2>
       <hr />
       <div className={styles.carStats}>

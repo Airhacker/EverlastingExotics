@@ -42,6 +42,13 @@
 /* ------------------- TABLET MEDIA QUERIES -------------------*/
 
 @media (min-width: 768px) {
+  .title h1 {
+    flex: 1.5;
+  }
+
+  .carContainer {
+    gap: 2rem;
+  }
 }
 
 /*------------------- DESKTOP MEDIA QUERIES -------------------*/

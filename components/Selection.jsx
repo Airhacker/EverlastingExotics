@@ -1,5 +1,7 @@
 import styles from "../styles/Selection.module.css";
 import AmgC63 from "./cars/AmgC63";
+import LamborghiniHuracan from "./cars/LamborghiniHuracan";
+import McLaren675lt from "./cars/McLaren675lt";
 import Raptor from "./cars/Raptor";
 
 const Selection = () => {
@@ -13,6 +15,8 @@ const Selection = () => {
       <div className={styles.carContainer}>
         <Raptor />
         <AmgC63 />
+        <LamborghiniHuracan />
+        <McLaren675lt />
       </div>
     </section>
   );
