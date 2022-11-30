@@ -7,7 +7,7 @@
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
-  padding: 1rem 0rem;
+  height: 10vh;
 }
 
 /* Logo Styling */
@@ -164,8 +164,8 @@
 
 @media (min-width: 1440px) {
   .logoContainer svg {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
   }
 
   .navLinksContainer ul {

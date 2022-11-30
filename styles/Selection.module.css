@@ -52,8 +52,23 @@
 }
 
 /*------------------- DESKTOP MEDIA QUERIES -------------------*/
+@media (min-width: 1024px) {
+  .title h1 {
+    font-size: 3rem;
+    flex: 2;
+  }
 
+  .carContainer {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
 @media (min-width: 1440px) {
+  .title h1 {
+    font-size: 4rem;
+    flex: 1.5;
+  }
 }
 
 /*------------------- 4K MEDIA QUERIES -------------------*/

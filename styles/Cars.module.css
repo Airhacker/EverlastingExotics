@@ -10,6 +10,7 @@
   padding: 2rem;
   gap: 10px;
   color: black;
+  min-height: 450px;
 }
 
 .container a {
@@ -70,6 +71,7 @@
 @media (min-width: 768px) {
   .container {
     padding: 2rem;
+    min-height: 600px;
   }
 
   .container a {
@@ -95,7 +97,14 @@
 }
 
 /*------------------- DESKTOP MEDIA QUERIES -------------------*/
-
+@media (min-width: 1024px) {
+  .container {
+    width: 100%;
+    flex: 1;
+    min-width: 40vw;
+    min-height: 500px;
+  }
+}
 @media (min-width: 1440px) {
 }
 
