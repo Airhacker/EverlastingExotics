@@ -28,7 +28,7 @@ export default function Hero() {
       <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
-        className="callToActionButton"
+        className={styles.button}
       >
         <Link href="/">Open Catalog</Link>
       </motion.button>
