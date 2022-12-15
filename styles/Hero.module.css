@@ -42,7 +42,7 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  font-size: 10.5vw;
+  font-size: 8.5vw;
   text-align: center;
   z-index: 2;
   text-align: center;
@@ -77,8 +77,8 @@
     display: none;
   }
   .heroText {
-    font-size: 6.25vw;
-    top: 5%;
+    font-size: 5vw;
+    top: 15%;
   }
   .heroContainer {
     gap: 1rem;

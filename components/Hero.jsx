@@ -22,7 +22,7 @@ export default function Hero() {
           ></Image>
         </div>
         <div className={styles.heroText}>
-          <h1>Everlasting Exotics</h1>
+          <h1>EVERLASTING EXOTICS</h1>
         </div>
       </div>
       <motion.button
